@@ -1,0 +1,273 @@
+
+@media only screen and (max-width: 1200px) {
+  .services {
+      height: 450px;
+    h2{
+      font-size:35px;
+      letter-spacing: 1px;
+  
+    p{
+    font-size: 16px;
+
+    }
+   
+    }
+    &__container--one {
+      width: 300px;
+      margin-top:90px;
+      margin-left: 60px;
+    }
+    &__container--two {
+      width: 300px;
+      transform: rotate(45deg);
+    }
+  }
+    .card{
+      height: 110px;
+    width: 110px;
+    margin: 5px;
+    &__title {
+  
+       font-size: 12px;
+     
+      }
+      &__icon{
+       
+        font-size: 52px;
+        
+      }
+    
+    }
+  
+ 
+ }
+@media only screen and (max-width: 992px) {
+  .services {
+    h2{
+      font-size:35px;
+      letter-spacing: 1px;
+    }
+    p{
+    font-size: 16px;
+    }
+    &__container--one {
+      width: 300px;
+      margin-top:70px;
+      margin-left: 15px;
+    }
+    &__container--two {
+      width: 300px;
+      transform: rotate(45deg);
+    }
+  }
+    .card{
+      height: 85px;
+    width: 85px;
+    margin: 5px;
+    &__title {
+  
+       font-size: 12px;
+     
+      }
+      &__icon{
+       
+        font-size: 35px;
+        
+      }
+    
+    }
+  
+ 
+ }
+@media only screen and (max-width: 768px) {
+  .header {
+    .navbar {
+      padding: 1rem 2rem;
+      margin: 0 auto;
+
+      .wrapper {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0;
+        background: $color-black;
+        transition: all 0.8s ease;
+
+        .menu {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 35%;
+          width: 100%;
+          transform: translateY(-50%);
+          a{
+            color: $color-light;
+            z-index: 999;
+
+            padding: 20px 10px 0px;
+            &:hover{
+            color: $color-white;
+
+            }
+          }
+        }
+      }
+
+      .nav-toggle {
+        display: block;
+        position: fixed;
+        right: 1rem;
+        top: 1rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        cursor: pointer;
+        z-index: 999;
+
+        span {
+          display: block;
+          width: 20px;
+          height: 2px;
+          background: $color-black;
+          border-radius: 2px;
+          margin-left: 14px;
+
+          &:nth-child(1) {
+            margin-top: 16px;
+          }
+          &:nth-child(2) {
+            margin-top: 4px;
+            opacity: 1;
+          }
+          &:nth-child(3) {
+            margin-top: 4px;
+          }
+        }
+      }
+
+      #nav:checked + .nav-toggle {
+        transform: rotate(45deg);
+
+        span {
+          background: $color-white;
+          transition: transform 0.5s ease;
+
+          &:nth-child(1) {
+            transform: translateY(6px) rotate(180deg);
+          }
+          &:nth-child(2) {
+            opacity: 0;
+          }
+          &:nth-child(3) {
+            transform: translateY(-6px) rotate(90deg);
+          }
+        }
+      }
+
+      #nav:checked ~ .wrapper {
+        z-index: 98;
+        opacity: 0.8;
+
+        .menu {
+          &-item {
+            a {
+              opacity: 1;
+              transform: translateX(0);
+            }
+          }
+        }
+      }
+    }
+  }
+
+     .anuncio .container-fluid .row h2 {
+    font-size: 1.5rem;
+}
+
+.anuncio .container-fluid .row p {
+    font-size: 17px;
+}
+
+.family .container {
+    height: 350px;
+}
+.about__natura .container img {
+    width: 100%;
+    height: 300px;
+}
+
+
+.logoNatura img {
+    width: 100%;
+}
+.cards .card__icon {
+    font-size: 200px;
+}
+.cards .card__description--title {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+}
+
+// .services {
+//     height: 400px;
+//     h2{
+//       font-size:35px;
+//       letter-spacing: 1px;
+//     }
+//     p{
+//     font-size: 16px;
+//     }
+//     &__container--one {
+//       width: 300px;
+//       margin-top:65px;
+//       margin-left: 40px;
+//     }
+//     &__container--two {
+//       width: 300px;
+//       transform: rotate(45deg);
+//     }
+//   }
+//     .card{
+//       height: 80px;
+//     width: 80px;
+//     margin: 5px;
+//     &__title {
+  
+//        font-size: 9px;
+     
+//       }
+//       &__icon{
+       
+//         font-size: 30px;
+        
+//       }
+    
+//     }
+}
+
+@media (max-width: 576px) { 
+  .services{
+    height: 550px;
+  
+&__cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  &__container--one{
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 200px;
+  }
+.card {
+    height:90px;
+    width: 90px;
+    margin: 5px;
+}
+
+  
+  } 
+}
+

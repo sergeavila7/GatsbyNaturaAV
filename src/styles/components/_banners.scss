@@ -1,0 +1,32 @@
+.banner {
+  width: 100%;
+  height: 87vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.overlay{
+  height: 87vh;
+  position: absolute;
+  top: 82px;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  background-color: $overlay;
+  color: $color-light;
+  h2{
+    font-family: $font1;
+    font-size: 3rem;
+  }
+  p{
+    font-family: $font2;
+    font-size: 1.5rem;
+  }
+.container{
+  height: 100%;
+}
+.row{
+  height: 100%;
+}
+}

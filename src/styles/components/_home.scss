@@ -1,0 +1,48 @@
+
+.anuncio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+ 
+  .container-fluid{
+    text-align: center; 
+// box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    .row{
+    // background-color: $color-light;
+
+    h2{
+      font-family: $font1;
+      font-size: 4rem;
+    }
+    p{
+      font-family: $font2;
+      font-size: 26px;
+    }
+    }
+  }
+}
+.family{
+  margin-bottom: 40px;
+
+}
+
+.family .container {
+  height: 500px;
+  background: url(https://cdn.pixabay.com/photo/2017/07/08/21/30/family-2485714_960_720.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: $color-white;
+  padding: 20px 60px;
+//    -webkit-box-shadow: 5px 5px 15px 5px #141414; 
+// box-shadow: 5px 5px 15px 5px #141414;
+  h2{
+    font-family: $font1;
+    font-size: 3rem;
+  }
+  p{
+    font-family: $font2;
+    font-size: 1.5rem;
+  }
+}

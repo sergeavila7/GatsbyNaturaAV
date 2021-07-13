@@ -1,0 +1,26 @@
+.requirements .card {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    margin: 40px 40px 0px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    &__body {
+    }
+    &__icon {
+        font-size: 100px;
+    }
+
+    &__description {
+        &--title {
+            color: $color-black;
+            font-family: $font1;
+            font-size: 20px;
+        }
+    }
+}
+
+.fa-address-card,
+.fa-home:before {
+    content: "\f2bb", "\f015";
+    color: #988449;
+}

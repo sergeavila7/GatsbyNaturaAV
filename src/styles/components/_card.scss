@@ -1,0 +1,171 @@
+.services {
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  background-color: rgb(228 228 228);
+  h2{
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 0; 
+    border-bottom: 3px solid $color-natura;
+    display: inline;
+
+
+  }
+  p{
+    font-size: 18px;
+  }
+  &__container--one {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    transform: rotate(45deg);
+    margin-top: 120px;
+  }
+  &__container--two {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    align-self:baseline;
+    width: 400px;
+    transform: rotate(45deg);
+  }
+  }
+  .card{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255,255,255);
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border: none;
+  
+  &__description{
+    
+    transform: rotate(-45deg);
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     font-size: 12px;
+     color: $color-black;
+      text-transform: uppercase;
+    }
+    &__icon{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 52px;
+      color: $color-natura;
+      
+    }
+    &:hover{
+      background: $color-black;
+      h3{
+        
+        color: white;
+      }
+    }
+  }
+
+  
+
+
+
+
+.requirements{
+  .card{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255,255,255);
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border: none;
+  
+  &__description{
+    
+    transform: rotate(0deg);
+  }
+  &__title {
+     font-size: 14px;
+     color: $color-black;
+      text-transform: uppercase;
+    }
+    &__icon{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      color: $color-natura;
+      
+    }
+    &:hover{
+      // background: $color-black;
+      h3{
+        
+        color: $color-black;
+      }
+    }
+  }
+}
+// .cards .card{
+// max-width: 800px;  
+// max-height: 800px;
+// margin: 50px auto;
+// position: relative;
+// box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);      
+//     &__body{
+//     }
+//     &__icon{
+//         font-size: 250px;
+//     }
+
+// &__description{
+//     &--title{
+//         color: $color-black;
+//         font-family:$font1;
+//         font-size: 2rem;
+//     }
+//     &--text{
+//         font-family:$font2;
+//         font-size: 1.5rem;
+//     }
+// }
+// }
+
+// .fa-hand-holding-usd:before {
+//     content: "\f4c0";
+//     color: #1e7e34;
+// }
+
+// .fa-boxes:before {
+//     content: "\f468";
+//     color: #c39e2e;
+
+// }
+
+// .fa-clock:before {
+//     content: "\f017";
+//         color: #633e3e;
+// }
+
+// .fa-plane-departure:before {
+//     content: "\f5b0";
+//             color: #007bff;
+
+// }
+
+// .fa-car:before {
+//     content: "\f1b9";
+//             color: #f18500;
+
+// }
+
