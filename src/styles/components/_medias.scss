@@ -1,17 +1,6 @@
 
 @media only screen and (max-width: 1200px) {
   .services {
-      height: 450px;
-    h2{
-      font-size:35px;
-      letter-spacing: 1px;
-  
-    p{
-    font-size: 16px;
-
-    }
-   
-    }
     &__container--one {
       width: 300px;
       margin-top:90px;
@@ -38,18 +27,15 @@
       }
     
     }
-  
+    .noHover{
+      pointer-events: none;
+  }
  
  }
+ 
 @media only screen and (max-width: 992px) {
   .services {
-    h2{
-      font-size:35px;
-      letter-spacing: 1px;
-    }
-    p{
-    font-size: 16px;
-    }
+  
     &__container--one {
       width: 300px;
       margin-top:70px;
@@ -182,92 +168,74 @@
     }
   }
 
-     .anuncio .container-fluid .row h2 {
-    font-size: 1.5rem;
-}
-
-.anuncio .container-fluid .row p {
-    font-size: 17px;
-}
-
-.family .container {
-    height: 350px;
-}
-.about__natura .container img {
-    width: 100%;
-    height: 300px;
-}
-
-
-.logoNatura img {
-    width: 100%;
-}
-.cards .card__icon {
-    font-size: 200px;
-}
-.cards .card__description--title {
-    font-family: "Lato", sans-serif;
-    font-size: 1.5rem;
-}
-
-// .services {
-//     height: 400px;
-//     h2{
-//       font-size:35px;
-//       letter-spacing: 1px;
-//     }
-//     p{
-//     font-size: 16px;
-//     }
-//     &__container--one {
-//       width: 300px;
-//       margin-top:65px;
-//       margin-left: 40px;
-//     }
-//     &__container--two {
-//       width: 300px;
-//       transform: rotate(45deg);
-//     }
-//   }
-//     .card{
-//       height: 80px;
-//     width: 80px;
-//     margin: 5px;
-//     &__title {
+  .services {
+    h3{
+      font-size:2rem;
+      letter-spacing: 1px;
   
-//        font-size: 9px;
-     
-//       }
-//       &__icon{
-       
-//         font-size: 30px;
-        
-//       }
-    
-//     }
+    }
+    p{
+    font-size: 1rem;
+    }
+   
+    }
+    .noHover{
+      pointer-events: none;
+  }
+
 }
 
 @media (max-width: 576px) { 
-  .services{
-    height: 550px;
-  
-&__cards{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-  &__container--one{
-    margin-top: 40px;
-    margin-left: 0px;
-    width: 200px;
+  .services {
+    flex-direction: column;
+    padding: 0;
+    &__cards{
+      display: flex;
+      flex-direction: column;
+      margin: 20px 0px;
+    }
+      &__container--one {
+        display: flex;
+        flex-wrap: wrap;
+        transform: rotate(0deg);
+        margin: 0 auto;
+      }
+      &__container--two {
+        display: flex;
+        flex-wrap: wrap;
+        align-self:baseline;
+        margin: 0 auto;
+        transform: rotate(0deg);
+      }
   }
-.card {
-    height:90px;
-    width: 90px;
-    margin: 5px;
-}
-
+  .services {
+    h3{
+      font-size:3rem;
+      letter-spacing: 1px;
   
-  } 
+    }
+    p{
+    font-size: 2rem;
+
+    }
+  }
+  .card{
+      height: 250px;
+      width: 350px;
+      margin: 10px 0px; 
+      box-shadow: 0 5px 20px rgb(0 0 0 / 50%);      
+    &__description{
+      transform: rotate(0deg);
+    }
+    &__title {
+       font-size: 2rem;
+      }
+      &__icon{
+        font-size: 100px; 
+      }
+  
+    }
+  
+  
 }
 

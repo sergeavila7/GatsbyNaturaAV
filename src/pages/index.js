@@ -1,46 +1,64 @@
 import React from "react"
-// import { Link } from "gatsby"
-// import { StaticImage } from "gatsby-plugin-image"
-import Banner from "../components/banner"
+import Banner from "../components/Banner"
 import SEO from "../components/seo"
+import about from '../images/natura-about.jpg'
 import "../styles/styles.scss"
 const IndexPage = () => (
   <>
     <SEO title="Home" />
-    <Banner 
-    url= "https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724241_960_720.jpg"
-    title="Natura Red Omega"
-    description="Te ayuda a duplicar tus ingresos. "
-    button="Descubre como miles de personas han logrado cambiar sus vidas..."
+    <Banner
+      url="https://www.revistaneo.com/sites/default/files/2019-11/Natura%20oficinas.jpg"
+      title="Natura Red Omega"
+      description=""
+      button=" Conoce nuestras marcas..."
+      href="https://www.natura.com.mx/nuestras-marcas"
     />
     <section className="anuncio">
       <div className="container-fluid">
         <div class="row align-items-center">
-          <div class="col-md-8 offset-md-2 text-center text-md-center">
-            <h2>¡Inscríbete Ya!</h2>
-            <p>
-             Es gratis, multiplica tus ingresos y conviertete en tu propio jefe.
-             Te ayudamos a que seas dueño de propio negocio, no pierdas la oportunidad de cambiar tu vida.
+          <div class="col-md-8 offset-md-2 ">
+            <h3 className="pt-4">
+              <span><strong>¿Por qué elegir Natura?</strong></span>
+            </h3>
+        
+            <p className="text-left pt-4">
+              ¿Te encuentras cansado(a) de las rigurosas jornadas de trabajo que
+              te impiden disfrutar de tu familia, de tener una mejor calidad y
+              tener que lidiar con jefes complicados?, ¡Olvidate de eso!, Te
+              puedes convertir en dueño de tu propio negocio. Tú decides cuanto
+              quieres ganar y el tiempo que quieres dedicar.
+            </p>
+            <p className="text-left">
+              Hazlo realidad con
+              <strong> Natura</strong>. Forma parte de los mas de 2,000
+              consultores que hacen de nosotros una de las empresas de venta
+              directa más importantes de Latinoamérica. Líder en el mercado y la
+              más sustentable a nivel mundial.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <section className="family">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class=" col-md-6 offset-md-6 text-center text-md-right pt-5">
-            <h2>Disfruta de tu familia</h2>
-            <p class="d-none d-md-block">
-              Puedes trabajar desde tu casa y pasar más tiempo con tu familia.
-            </p>
-            <button class="btn btn-warning" href="#">
-              Ver más...
-            </button>
-          </div>
-        </div>
+          <section className='presentation'>
+     <div className='banner__presentation mx-auto'>
+      <div className='banner__image col-lg-6 col-12'>
+        <img src='https://lh3.googleusercontent.com/T2bI2UI20ujAWxKXyJudlp2csN11tq-YELMuHdud-QYcMWjg83j7h2mOJFCgNGbJ_KLIEDFG=w1080-h608-p-no-v0'/>
       </div>
+      <div className='banner__info col-lg-6 col-12'>
+        <h2 className="text-center">
+          <span>Tu Propio Negocio</span>
+        </h2>
+        <p className="text-center">Comienza a generar ingresos extra<strong> sin inversión.</strong>
+        </p>
+    <p className="text-left">
+              Nuestro negocio ayuda a inspirar a que las personas encuentren su
+              libertidad financiera, crecimiento personal y profesionasl
+              mediante la mejor oportunidad de vida en redes de mercadeo.
+            </p>
+      </div>
+    </div>
     </section>
+    
   </>
 )
 

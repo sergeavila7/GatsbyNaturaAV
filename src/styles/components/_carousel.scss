@@ -1,3 +1,37 @@
+// Estilos del Slider de la sección de Beneficios
+.carousel__banner{
+    .carousel{
+      &-control-prev{
+        display: flex;
+        position: absolute;
+        left: 0;
+      } 
+      &-control-next{
+        display: flex;
+        position: absolute;
+        right: 0;
+      }
+      height: 88vh;
+      &-indicators{
+        display: none;
+      }
+      &-caption{
+        top: 20px;
+        h3{
+          font-size: 2.5rem;
+        }
+        p{
+          font-size: 1.5rem;
+        }
+      }
+    }
+    img{
+      height: 88vh;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
 .container-sm {
     width: 100%;
     padding-right: 15px;
@@ -24,13 +58,14 @@
 
 .carousel-indicators li {
     box-sizing: content-box;
-    width: 15px;
-    height: 15px;
-    margin-right: 3px;
-    margin-left: 3px;
+    width: 10px;
+    height: 10px;
+   margin: 0px 10px;
     border-radius: 80%;
 }
-
+.carousel-control-prev, .carousel-control-next{
+  display: none;
+}
 @media (min-width: 576px){
 .container-sm{
     max-width: 540px;
