@@ -53,7 +53,7 @@ const IndexPage = () => (
           </p>
           <p className="text-left">
             Nuestro negocio ayuda a inspirar a que las personas encuentren su
-            libertidad financiera, crecimiento personal y profesionasl mediante
+            libertidad financiera, crecimiento personal y profesional mediante
             la mejor oportunidad de vida en redes de mercadeo.
           </p>
         </div>

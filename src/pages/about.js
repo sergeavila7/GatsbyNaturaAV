@@ -118,11 +118,11 @@ const About = () => {
         </div>
       </section>
 
-      <section classname="testimonials">
+      {/* <section classname="testimonials">
         <div className="container-sm">
           <CarouselContainer />
         </div>
-      </section>
+      </section> */}
     </>
   )
 }
