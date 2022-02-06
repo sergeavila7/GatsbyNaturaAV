@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="container-socials">
             <div className="col-lg-12 d-flex flex-column-reverse flex-md-row text-center justify-content-center align-items-center">
               <div className="logoNatura">
-                <img src={Omega} loading="lazy" />
+                <img src={Omega} loading="lazy" alt="Red Omega" />
               </div>
               <div className="socials pt-5">
                 <ul>

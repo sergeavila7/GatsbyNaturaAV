@@ -116,7 +116,7 @@
           display: block;
           width: 20px;
           height: 2px;
-          background: $color-black;
+          background: $color-natura;
           border-radius: 2px;
           margin-left: 14px;
 
@@ -137,7 +137,7 @@
         transform: rotate(45deg);
 
         span {
-          background: $color-white;
+          background: $color-natura;
           transition: transform 0.5s ease;
 
           &:nth-child(1) {
@@ -210,12 +210,12 @@
   }
   .services {
     h3{
-      font-size:3rem;
+      font-size:2rem;
       letter-spacing: 1px;
   
     }
     p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 
     }
   }
@@ -228,7 +228,7 @@
       transform: rotate(0deg);
     }
     &__title {
-       font-size: 2rem;
+       font-size: 1.5rem;
       }
       &__icon{
         font-size: 100px; 

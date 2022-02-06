@@ -22,7 +22,9 @@ const Benefits = () => {
         <div className="container">
           <div className="row">
             <div className="services__title col-12 col-md-4">
-              <h3 className="text-center pt-4"><span>Beneficios</span></h3>
+              <h3 className="text-center pt-4">
+                <span>Beneficios</span>
+              </h3>
               <p className="services__p pt-4">
                 Tienes la oportunidad de ganar viajes nacionales e
                 internacionales, campañas especiales, entrenamientos exclusivos,

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Natura Red Omega`,
-    description: `Reclutamiento Red Natura`,
+    description: `Reclutamiento Natura Red Omega`,
     author: `@serge_avila7`,
   },
   plugins: [

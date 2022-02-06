@@ -8,10 +8,10 @@ export default function ContactUs() {
 
     emailjs
       .sendForm(
-        "service_kuhfpkf",
-        "template_glcdt3z",
+        "service_30n5wmd",
+        "template_6s4l23q",
         e.target,
-        "user_xZG2GDssDD05TPUzSnMNO"
+        "user_VTC7M1DjMb1jSmhWfKAbG"
       )
       .then(
         result => {
@@ -41,7 +41,7 @@ export default function ContactUs() {
               <input
                 className="input-text"
                 type="text"
-                name="Name"
+                name="name"
                 required
                 autoFocus
                 pattern="[a-zA-ZÀ-ÿ\s]{1,25}"
@@ -56,7 +56,7 @@ export default function ContactUs() {
               <input
                 className="input-text"
                 type="text"
-                name="Lastname"
+                name="lastname"
                 required
                 pattern="[a-zA-ZÀ-ÿ\s]{1,40}"
                 title="Username should only contain lowercase letters. e.g. Juan"
@@ -70,7 +70,7 @@ export default function ContactUs() {
               <input
                 className="input-text"
                 type="email"
-                name="Email"
+                name="email"
                 required
                 pattern="^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,4})$"
                 title="Ingrese una cuenta de correo valida. example@example.com"
@@ -84,7 +84,7 @@ export default function ContactUs() {
               <input
                 className="input-text"
                 type="phone"
-                name="Phone"
+                name="phone"
                 required
                 pattern="[0-9]{10,12}"
                 title="Ingrese un numero telefonico valido de 10 digitos."
@@ -95,8 +95,8 @@ export default function ContactUs() {
             </div>
 
             <div className="form-field col-lg-4">
-              <textarea className="textarea" name="msg" required />
-              <label for="msg" class="label-msg">
+              <textarea className="textarea" name="message" required />
+              <label for="message" class="label-msg">
                 Mensaje
               </label>
             </div>

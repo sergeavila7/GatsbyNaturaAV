@@ -19,6 +19,14 @@ const Contact = () => {
             <i className="fab fa-whatsapp"></i>{" "}
           </a>
         </li>
+        <li>
+          <a
+            href="mailto:juanmorales.redomega@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail"
+            className="email"
+          >
+            <i class="far fa-envelope"></i>{" "}
+          </a>
+        </li>
       </ul>
     </div>
   )

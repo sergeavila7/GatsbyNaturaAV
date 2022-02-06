@@ -7,13 +7,13 @@ const BannerCarousel = () => {
   return (
     <Carousel>
       <Carousel.Item interval={3000}>
-        <img className="d-block w-100" src={Car} alt="First slide" />
+        <img className="d-block w-100" src={Car} alt="auto" />
       </Carousel.Item>
       <Carousel.Item interval={3000}>
-        <img className="d-block w-100" src={Benefits1} alt="Second slide" />
+        <img className="d-block w-100" src={Benefits1} alt="reunion" />
       </Carousel.Item>
       <Carousel.Item interval={3000}>
-        <img className="d-block w-100" src={Benefits2} alt="Third slide" />
+        <img className="d-block w-100" src={Benefits2} alt="evento" />
       </Carousel.Item>
     </Carousel>
   )

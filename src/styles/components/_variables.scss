@@ -32,13 +32,14 @@ body {
   h1,h2,h3,h4 {
     font-family: $font1;
     text-transform: uppercase;
-    border-bottom:2px solid #CCC;
-  }
-  span{
-    position:relative;
-    top:2px;
-    display:inline-block;
-    border-bottom:2px solid $color-natura;
+    // border-bottom:2px solid #CCC;
+    span{
+      padding: 0px 0px 15px;
+      position:relative;
+      top:2px;
+      display:inline-block;
+      border-bottom:4px solid #fcbc0bde;
+    }
   }
   p {
     font-family: $font2;

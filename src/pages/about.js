@@ -10,14 +10,12 @@ const About = () => {
   return (
     <>
       <SEO title="About" />
- <Banner
+      <Banner
         url={BannerAbout}
         title="¿Qué es Natura ?"
         description="Natura es una compañía multinacional brasileña del sector de cosméticos, higiene y belleza, con modelo comercial multicanal de ventas fundada hace 50 años."
-        button="Conoce más de nosotros..."
-        href="https://www.natura.com.mx/trabaja-con-nosotros"
-/>
-   <section className="about__natura">
+      />
+      <section className="about__natura">
         <div className="container">
           <div class="row justify-content-center align-items-center">
             <div className="about__team col-md-10 col-12">
