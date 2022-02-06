@@ -8,6 +8,7 @@ const Banner = props => {
         backgroundImage: `url(${props.url})`,
       }}
     >
+    
       <div className="overlay">
         <div className="container">
           <div className="row align-items-center">
